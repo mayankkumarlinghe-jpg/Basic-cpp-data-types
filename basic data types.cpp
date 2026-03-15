@@ -10,6 +10,7 @@ int main() {
     float d;
     double e;
     cin>>a>>b>>c>>d>>e;
+    // Output format specified in the problem statement
     cout<<a<<"\n"<<b<<"\n"<<c<<"\n";
     printf("%.3f\n",d);
     printf("%.9f",e);
