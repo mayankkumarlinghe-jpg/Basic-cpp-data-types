@@ -4,6 +4,7 @@ using namespace std;
 
 /*
 Add `int max_of_four(int a, int b, int c, int d)` here.
+This function returns the maximum of four integers.
 */
 int max_of_four(int a,int b,int c,int d){
     if(a>b && a>c &&a>d){
