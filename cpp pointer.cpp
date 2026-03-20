@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include<math.h>
 void update(int *a,int *b) {
-    // Complete this function 
     // Updating 'a' to hold the sum, and 'b' to hold the absolute difference
-    int temp=*a;
-    *a=*a+*b;  
-    *b = abs(temp - *b);
+    int original_a = *a;
+    int original_b = *b;
+    *a = original_a + original_b;  
+    *b = abs(original_a - original_b);
 }
 
 int main() {
